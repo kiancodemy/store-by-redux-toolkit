@@ -17,7 +17,7 @@ const CartContainer = () => {
       .reduce((b, c) => {
         return b + c;
       }, 0);
-    return sum;
+    return Math.trunc(sum);
   });
 
   const final = () => {
@@ -35,14 +35,14 @@ const CartContainer = () => {
     );
   }
   return (
-    <section className="cart">
+    <section className="cart ">
       <header>
         <h2>your bag</h2>
       </header>
 
       <div>
         {cartArray.map((whole) => {
-          return <CartItem key={whole.id} {...whole} />;
+          return <CartItem  key={whole.id} {...whole} />;
         })}
       </div>
 

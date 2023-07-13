@@ -1,12 +1,9 @@
-
 import Navbar from "./Navbar";
 import CartContainer from "./CartContainer";
 
-
 function App() {
-  
   return (
-    <main>
+    <main style={{ backgroundColor: "#cde0e8" }}>
       <Navbar />
       <CartContainer />
     </main>

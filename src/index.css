@@ -358,6 +358,8 @@ Cart Item
   grid-template-columns: auto 1fr auto;
   column-gap: 1.5rem;
   margin: 1.5rem 0;
+  border: 10px;
+  border-color: #141233;
 }
 
 .cart-item img {
@@ -410,4 +412,5 @@ Cart Item
 }
 .reza {
   width: auto;
+  border-radius: 8px;
 }

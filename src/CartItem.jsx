@@ -18,13 +18,12 @@ const CartItem = ({ id, img, title, price, amount }) => {
       <div>
         <h5>{title}</h5>
         <span className="item-price">${price}</span>
-      
+
         <button className="remove-btn" onClick={() => dispatch(remove(id))}>
           remove
         </button>
       </div>
       <div>
-      
         <button className="amount-btn" onClick={increase}>
           <FaChevronUp className="amount-icon" />
         </button>
